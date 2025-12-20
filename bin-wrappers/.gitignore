@@ -1,16 +1,24 @@
-workspace.xml
-junitvmwatcher*.properties
-build.properties
+# Nestjs specific
+/dist
+/node_modules
+/build
+/tmp
 
-# generated java classes and java source files
-#   manually add any custom artifacts that can't be generated from the models
-#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
-classes_gen
-source_gen
-source_gen.caches
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# generated test code and test results
-test_gen
-test_gen.caches
-TEST-*.xml
-junit*.properties
+# dotenv environment variable files
+.env
+.env.development
+.env.test
+.env.production
+
+# temp directory
+.temp
+.tmp
