@@ -1,3 +1,4 @@
+
 #define COMPAT_CODE_ACCESS
 #include "../git-compat-util.h"
 
