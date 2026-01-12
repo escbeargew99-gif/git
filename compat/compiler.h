@@ -1,4 +1,5 @@
-#ifndef COMPILER_H
+
+ifndef COMPILER_H
 #define COMPILER_H
 
 #include "strbuf.h"
